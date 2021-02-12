@@ -1,6 +1,6 @@
 {
-  "title": "microsite",
-  "description": "Opinionated micro front-end that can be used to start a one-page site.",
+  "title": "ZeroTwenty",
+  "description": "Landing page to sign-up for the community",
   "favicon": "/assets/icon.png",
   "share": "/assets/share-image.jpg",
   "url": "https://voight-microsite.netlify.app",

@@ -5,18 +5,70 @@ body {
   align-items: center;
   flex-direction: column;
   height: 98vh;
-  background-color: white;
-  background-image: radial-gradient(rgb(189, 189, 189) 1px, white 1px);
-  background-size: 20px 20px;
+  background: url("/assets/background.jpg") center center no-repeat fixed;
   font-weight: 100;
+  font-size: 1.2em;
+  color: #111827;
+  line-height: 1.4;
+}
+
+section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section > * {
+  margin-bottom: 1.2em;
+}
+
+h1 {
+  margin-bottom: 0.8em;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+}
+
+h1 svg {
+  margin-right: 0.2em;
 }
 
 h2 {
   font-weight: 100;
   margin-top: 0;
+  width: 60%;
+  text-align: center;
 }
 
 img {
   width: 2em;
   vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  border-radius: 2.6rem;
+  padding: 0.8em 1em;
+  font-weight: bold;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1),
+    0px 2px 10px 0px rgba(0, 0, 0, 0.08);
+  transition: 250ms ease;
+  display: inline-block;
+}
+
+a:hover,
+a:focus {
+  transform: translateY(-2px);
+}
+
+a:nth-of-type(1) {
+  background: #0399ff;
+  color: white;
+  margin-right: 1em;
+}
+
+a:nth-of-type(2) {
+  background: white;
+  color: #111827;
 }
