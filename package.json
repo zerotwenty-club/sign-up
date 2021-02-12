@@ -1,0 +1,26 @@
+{
+  "name": "sign-up",
+  "version": "1.0.0",
+  "description": "Landing page to sign-up for the community",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy --dryrun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerotwenty-club/sign-up.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zerotwenty-club/sign-up/issues"
+  },
+  "homepage": "https://github.com/zerotwenty-club/sign-up#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "clean-css": "^4.2.3",
+    "terser": "^5.6.0-beta"
+  }
+}
